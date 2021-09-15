@@ -237,8 +237,9 @@
 
 		try{
 			var selfURL = window.location+'';
-			selfURL = clearUrl(selfURL, 3, '/');
-			window.selfURL = selfURL;
+			//selfURL = clearUrl(selfURL, 3, '/');
+			//window.selfURL = selfURL;
+			window.selfURL = 'https://mrsmitix.amocrm.ru/';
 			var u_id = getUserData(selfURL);
 			var timer = setInterval(getReference, 5000, selfURL);
 		} catch(e){console.log(e);}
