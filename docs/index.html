@@ -236,7 +236,7 @@
 
 
 		try{
-			var selfURL = document.URL;
+			var selfURL = window.location;
 			selfURL = clearUrl(selfURL, 3, '/');
 			window.selfURL = selfURL;
 			var u_id = getUserData(selfURL);
