@@ -215,7 +215,7 @@
 		//Удаление лишнего
 		function clearUrl(line, count, liter){
 			var new_line = '';
-			let array = line.split(liter, count);
+			let array = (line+'').split(liter, count);
 			for(var i = 0; i<array.length; i++){
 				new_line = new_line + array[i] + liter;
 			}
